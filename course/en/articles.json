@@ -430,5 +430,113 @@
       "backgroundRepeat": "no-repeat",
       "backgroundColor": "transparent"
     }
+  },
+  {
+    "_id": "5b0c3de430a0939d01641a06",
+    "_type": "article",
+    "_parentId": "5af41aadde471cce014680bd",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isVisible": true,
+    "_isHidden": false,
+    "_isAvailable": true,
+    "_isOptional": false,
+    "instruction": "",
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Narrative example",
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": false,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    },
+    "_articleBackground": {
+      "mobileSrc": "",
+      "src": "",
+      "mobileBannerHeight": 150,
+      "bannerHeight": 300,
+      "backgroundSize": "cover",
+      "backgroundAttachement": "fixed",
+      "backgroundPosition": "center center",
+      "backgroundRepeat": "repeat",
+      "backgroundColor": "transparent"
+    }
+  },
+  {
+    "_id": "5b0c49ea30a0939d01641a0b",
+    "_type": "article",
+    "_parentId": "5af41aadde471cce014680bd",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isVisible": true,
+    "_isHidden": false,
+    "_isAvailable": true,
+    "_isOptional": false,
+    "instruction": "",
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Reveal",
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": false,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": true,
+        "_className": "",
+        "text": "Continue",
+        "startText": "Begin",
+        "finalText": "Finish",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    },
+    "_articleBackground": {
+      "mobileSrc": "",
+      "src": "",
+      "mobileBannerHeight": 150,
+      "bannerHeight": 300,
+      "backgroundSize": "cover",
+      "backgroundAttachement": "fixed",
+      "backgroundPosition": "center center",
+      "backgroundRepeat": "repeat",
+      "backgroundColor": "transparent"
+    }
   }
 ]

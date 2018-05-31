@@ -62,8 +62,8 @@
       "_percentInviewVertical": 50
     },
     "body": "",
-    "displayTitle": "Component title",
-    "title": "Component title",
+    "displayTitle": "",
+    "title": "Block",
     "_isVisible": true,
     "_isHidden": false,
     "_isAvailable": true,
@@ -86,7 +86,7 @@
     },
     "body": "",
     "displayTitle": "",
-    "title": "Component title",
+    "title": "Graphic",
     "_isVisible": true,
     "_isHidden": false,
     "_isAvailable": true,
@@ -116,7 +116,7 @@
     },
     "body": "",
     "displayTitle": "",
-    "title": "Component title",
+    "title": "Accordion",
     "_isVisible": true,
     "_isHidden": false,
     "_isAvailable": true,
@@ -255,9 +255,9 @@
       "_isEnabled": true
     },
     "instruction": "Answer TRUE or False to the following statements",
-    "_attempts": 1,
+    "_attempts": 2,
     "_canShowModelAnswer": true,
-    "_canShowFeedback": false,
+    "_canShowFeedback": true,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
     "_isRandom": false,
@@ -306,14 +306,14 @@
       }
     ],
     "_feedback": {
-      "correct": "",
+      "correct": "<p>Paleo portland 90&#39;s ramps vice man bun DIY put a bird on it taiyaki YOLO glossier sustainable jean shorts raclette seitan. Chambray prism direct trade, venmo aesthetic cornhole pop-up ethical cardigan hoodie knausgaard squid. Copper mug etsy crucifix vegan street art pinterest. Jianbing aesthetic selfies keffiyeh vinyl ethical narwhal vegan beard everyday carry. Pok pok readymade taiyaki pickled irony plaid, tumblr ramps cliche gentrify viral pug. Drinking vinegar polaroid before they sold out irony forage tousled. Blog roof party cornhole semiotics, occupy af irony tousled pickled vaporware bicycle rights.</p>",
       "_incorrect": {
-        "final": "",
-        "notFinal": ""
+        "final": "<p>Paleo portland 90&#39;s ramps vice man bun DIY put a bird on it taiyaki YOLO glossier sustainable jean shorts raclette seitan. Chambray prism direct trade, venmo aesthetic cornhole pop-up ethical cardigan hoodie knausgaard squid. Copper mug etsy crucifix vegan street art pinterest. Jianbing aesthetic selfies keffiyeh vinyl ethical narwhal vegan beard everyday carry. Pok pok readymade taiyaki pickled irony plaid, tumblr ramps cliche gentrify viral pug. Drinking vinegar polaroid before they sold out irony forage tousled. Blog roof party cornhole semiotics, occupy af irony tousled pickled vaporware bicycle rights.</p>",
+        "notFinal": "<p>Paleo portland 90&#39;s ramps vice man bun DIY put a bird on it taiyaki YOLO glossier sustainable jean shorts raclette seitan. Chambray prism direct trade, venmo aesthetic cornhole pop-up ethical cardigan hoodie knausgaard squid. Copper mug etsy crucifix vegan street art pinterest. Jianbing aesthetic selfies keffiyeh vinyl ethical narwhal vegan beard everyday carry. Pok pok readymade taiyaki pickled irony plaid, tumblr ramps cliche gentrify viral pug. Drinking vinegar polaroid before they sold out irony forage tousled. Blog roof party cornhole semiotics, occupy af irony tousled pickled vaporware bicycle rights.</p>"
       },
       "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
+        "final": "<p>Paleo portland 90&#39;s ramps vice man bun DIY put a bird on it taiyaki YOLO glossier sustainable jean shorts raclette seitan. Chambray prism direct trade, venmo aesthetic cornhole pop-up ethical cardigan hoodie knausgaard squid. Copper mug etsy crucifix vegan street art pinterest. Jianbing aesthetic selfies keffiyeh vinyl ethical narwhal vegan beard everyday carry. Pok pok readymade taiyaki pickled irony plaid, tumblr ramps cliche gentrify viral pug. Drinking vinegar polaroid before they sold out irony forage tousled. Blog roof party cornhole semiotics, occupy af irony tousled pickled vaporware bicycle rights.</p>",
+        "notFinal": "<p>Paleo portland 90&#39;s ramps vice man bun DIY put a bird on it taiyaki YOLO glossier sustainable jean shorts raclette seitan. Chambray prism direct trade, venmo aesthetic cornhole pop-up ethical cardigan hoodie knausgaard squid. Copper mug etsy crucifix vegan street art pinterest. Jianbing aesthetic selfies keffiyeh vinyl ethical narwhal vegan beard everyday carry. Pok pok readymade taiyaki pickled irony plaid, tumblr ramps cliche gentrify viral pug. Drinking vinegar polaroid before they sold out irony forage tousled. Blog roof party cornhole semiotics, occupy af irony tousled pickled vaporware bicycle rights.</p>"
       }
     },
     "_buttons": {
@@ -461,5 +461,97 @@
     },
     "instruction": "",
     "_source": "assets/skeleton/worklife.html"
+  },
+  {
+    "_id": "5b0c3e1830a0939d01641a08",
+    "_layout": "full",
+    "_type": "component",
+    "_parentId": "5b0c3de530a0939d01641a07",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Narrative component",
+    "_isVisible": true,
+    "_isHidden": false,
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "compbgtransp",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Narrative 1",
+        "body": "<p>Pinterest lyft prism viral. Pinterest helvetica vinyl, palo santo etsy lo-fi tousled irony lyft. Next level iPhone health goth sustainable sartorial, everyday carry tumeric pabst man braid. Quinoa paleo tbh kickstarter distillery typewriter intelligentsia.</p>",
+        "_graphic": {
+          "src": "course/en/assets/f025eacf3263def8973ff03d0ecc807ef2b78b46.jpg",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Narrative 1"
+      },
+      {
+        "title": "Narrative 2",
+        "body": "<p>Jean shorts heirloom literally chillwave pabst, offal sartorial vinyl green juice poke hell of edison bulb. Tbh tumeric mumblecore craft beer artisan coloring book mixtape cray normcore. Air plant disrupt man bun marfa ugh kickstarter. Cold-pressed everyday carry before they sold out farm-to-table stumptown. Salvia 90&#39;s plaid offal kickstarter letterpress, mixtape distillery. Literally vegan lomo schlitz austin salvia you probably haven&#39;t heard of them.</p>",
+        "_graphic": {
+          "src": "course/en/assets/ca1e8a6f8927c9e8a034654c88601184c30df4db.jpg",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Narrative 2"
+      }
+    ]
+  },
+  {
+    "_id": "5b0c4a4730a0939d01641a0d",
+    "_layout": "full",
+    "_type": "component",
+    "_parentId": "5b0c49ec30a0939d01641a0c",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Reveal component",
+    "_isVisible": true,
+    "_isHidden": false,
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "compbgtransp",
+    "_component": "reveal",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_direction": "left",
+    "control": {
+      "hideText": "Hide",
+      "showText": "Show"
+    },
+    "first": {
+      "title": "",
+      "src": "course/en/assets/f025eacf3263def8973ff03d0ecc807ef2b78b46.jpg",
+      "alt": "",
+      "body": "",
+      "moreText": "More"
+    },
+    "second": {
+      "title": "",
+      "src": "course/en/assets/733e2fca300a82c514fc17f871c0b196c3a1ad7f.jpg",
+      "alt": "",
+      "body": "<p>XOXO polaroid everyday carry, chartreuse gochujang roof party blue bottle typewriter yuccie. Williamsburg meditation green juice pok pok direct trade brunch shaman glossier man bun tofu. Flannel banh mi unicorn farm-to-table enamel pin chambray banjo small batch chartreuse glossier lumbersexual ennui. Woke tumeric synth, fixie polaroid vexillologist microdosing cliche kinfolk readymade fashion axe. Cred irony meggings mlkshk kitsch forage. Cray franzen listicle, iPhone photo booth offal taiyaki leggings sriracha.</p><p>Pinterest lyft prism viral. Pinterest helvetica vinyl, palo santo etsy lo-fi tousled irony lyft. Next level iPhone health goth sustainable sartorial, everyday carry tumeric pabst man braid. Quinoa paleo tbh kickstarter distillery typewriter intelligentsia.</p>",
+      "moreText": "More"
+    }
   }
 ]
