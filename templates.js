@@ -766,6 +766,144 @@ this["Handlebars"]["templates"]["media"] = Handlebars.template({"1":function(con
     + "    \n</div>\n";
 },"usePartial":true,"useData":true});
 
+this["Handlebars"]["templates"]["narrative"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
+    return "narrative-text-controls";
+},"3":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing;
+
+  return "                <div class=\"narrative-content-item\">\n                    "
+    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0._graphic : depth0)) != null ? stack1.alt : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "\n                    <div class=\"narrative-content-title\">\n                        <div class=\"narrative-content-title-inner accessible-text-block h5\" role=\"heading\" aria-level=\"5\" tabindex=\"0\">\n                            "
+    + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === "function" ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + " \n                        </div>\n                    </div>\n                    <div class=\"narrative-content-body\">\n                        <div class=\"narrative-content-body-inner\">\n                            "
+    + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || alias2).call(alias1,(depth0 != null ? depth0.body : depth0),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
+    + "\n                        </div> \n                    </div>\n                </div>\n";
+},"4":function(container,depth0,helpers,partials,data) {
+    var stack1;
+
+  return ((stack1 = (helpers.a11y_aria_label || (depth0 && depth0.a11y_aria_label) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? depth0._graphic : depth0)) != null ? stack1.alt : stack1),{"name":"a11y_aria_label","hash":{},"data":data})) != null ? stack1 : "");
+},"6":function(container,depth0,helpers,partials,data) {
+    return "                        <div class=\"narrative-progress component-item-color component-item-border\"></div>\n";
+},"8":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function";
+
+  return "                    <button role=\"button\" class=\"base narrative-strapline-title\" aria-label=\""
+    + ((stack1 = ((helper = (helper = helpers.strapline || (depth0 != null ? depth0.strapline : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"strapline","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + "\">\n                        <div class=\"narrative-strapline-title-inner accessible-text-block h5\">\n                            "
+    + ((stack1 = ((helper = (helper = helpers.strapline || (depth0 != null ? depth0.strapline : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"strapline","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + " \n                        </div>\n                        <div class=\"icon icon-plus\"></div>\n                        <div class=\"focus-rect\"></div>\n                    </button>\n";
+},"10":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {});
+
+  return "                <div class=\"narrative-slider-graphic "
+    + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0._isVisited : depth0),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "\">\n                    <img src=\""
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0._graphic : depth0)) != null ? stack1.src : stack1), depth0))
+    + "\" />\n"
+    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0._graphic : depth0)) != null ? stack1.attribution : stack1),{"name":"if","hash":{},"fn":container.program(13, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "                </div>\n";
+},"11":function(container,depth0,helpers,partials,data) {
+    return "visited";
+},"13":function(container,depth0,helpers,partials,data) {
+    var stack1;
+
+  return "                        <div class=\"graphic-attribution\">"
+    + ((stack1 = container.lambda(((stack1 = (depth0 != null ? depth0._graphic : depth0)) != null ? stack1.attribution : stack1), depth0)) != null ? stack1 : "")
+    + "</div>\n";
+},"15":function(container,depth0,helpers,partials,data) {
+    return "                <div class=\"narrative-progress component-item-color component-item-border\"></div>\n";
+},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=container.lambda, alias2=container.escapeExpression, alias3=depth0 != null ? depth0 : (container.nullContext || {});
+
+  return "<div class=\"narrative-inner component-inner\" role=\"region\" aria-label=\""
+    + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._components : stack1)) != null ? stack1._narrative : stack1)) != null ? stack1.ariaRegion : stack1), depth0))
+    + "\">\n"
+    + ((stack1 = container.invokePartial(partials.component,depth0,{"name":"component","data":data,"indent":"    ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + "    <div class=\"narrative-widget component-widget "
+    + ((stack1 = helpers["if"].call(alias3,(depth0 != null ? depth0._hasNavigationInTextArea : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "\">\n\n        <div class=\"narrative-content\">\n            <div class=\"narrative-content-inner\">\n"
+    + ((stack1 = helpers.each.call(alias3,(depth0 != null ? depth0._items : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "                <div class=\"narrative-controls-container clearfix\">\n                    <div class=\"narrative-indicators\">\n"
+    + ((stack1 = helpers.each.call(alias3,(depth0 != null ? depth0._items : depth0),{"name":"each","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "                    </div>\n                    <button class=\"base narrative-controls narrative-control-left\" role=\"button\" aria-label=\""
+    + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.previous : stack1), depth0))
+    + "\">\n                        <div class=\"icon icon-controls-left\"></div>\n                    </button>\n                    <button class=\"base narrative-controls narrative-control-right\" role=\"button\" aria-label=\""
+    + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.next : stack1), depth0))
+    + "\">\n                        <div class=\"icon icon-controls-right\"></div>\n                    </button>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"narrative-strapline\">\n            <div class=\"narrative-strapline-header\">\n                <div class=\"narrative-strapline-header-inner clearfix\">\n                    <div></div>\n"
+    + ((stack1 = helpers.each.call(alias3,(depth0 != null ? depth0._items : depth0),{"name":"each","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "                </div>\n            </div>\n        </div>\n\n        <div class=\"narrative-slide-container\">\n\n            <button class=\"base narrative-controls narrative-control-left\" role=\"button\" aria-label=\""
+    + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.previous : stack1), depth0))
+    + "\">\n                <div class=\"icon icon-controls-left\"></div>\n            </button>\n            <button class=\"base narrative-controls narrative-control-right\" role=\"button\" aria-label=\""
+    + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.next : stack1), depth0))
+    + "\">\n                <div class=\"icon icon-controls-right\"></div>\n            </button>\n\n            <div class=\"narrative-slider clearfix\">\n"
+    + ((stack1 = helpers.each.call(alias3,(depth0 != null ? depth0._items : depth0),{"name":"each","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "            </div>\n            <div class=\"narrative-indicators\">\n"
+    + ((stack1 = helpers.each.call(alias3,(depth0 != null ? depth0._items : depth0),{"name":"each","hash":{},"fn":container.program(15, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "            </div>\n        </div>\n\n        <div class=\"clearfix\"></div>\n\n    </div>    \n</div>\n";
+},"usePartial":true,"useData":true});
+
+this["Handlebars"]["templates"]["reveal"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=container.lambda, alias2=container.escapeExpression;
+
+  return "                    <img src=\""
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.second : depth0)) != null ? stack1.src : stack1), depth0))
+    + "\" class=\"reveal-image\" alt=\""
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.second : depth0)) != null ? stack1.alt : stack1), depth0))
+    + "\" title=\""
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.second : depth0)) != null ? stack1.title : stack1), depth0))
+    + "\"/>\n";
+},"3":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {});
+
+  return "                    <div class=\"reveal-widget-item-text second\">\n                        <div class=\"reveal-widget-item-text-body reveal-second-long dot-ellipsis dot-resize-update\" class=\"a11y-ignore\" aria-hidden=\"true\" tab-index=\"-1\">\n                            "
+    + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(alias1,((stack1 = (depth0 != null ? depth0.second : depth0)) != null ? stack1.body : stack1),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
+    + "\n                            <a href=\"#\" class=\"reveal-popup-open\" tabindex=\"-1\">"
+    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.second : depth0)) != null ? stack1.moreText : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.program(6, data, 0),"data":data})) != null ? stack1 : "")
+    + "</a>                          \n                        </div>\n                    </div>\n";
+},"4":function(container,depth0,helpers,partials,data) {
+    var stack1;
+
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.second : depth0)) != null ? stack1.moreText : stack1), depth0));
+},"6":function(container,depth0,helpers,partials,data) {
+    return "More";
+},"8":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=container.lambda, alias2=container.escapeExpression;
+
+  return "                    <img src=\""
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.first : depth0)) != null ? stack1.src : stack1), depth0))
+    + "\" class=\"reveal-image\" alt=\""
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.first : depth0)) != null ? stack1.alt : stack1), depth0))
+    + "\" title=\""
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.first : depth0)) != null ? stack1.title : stack1), depth0))
+    + "\"/>\n";
+},"10":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {});
+
+  return "                    <div class=\"reveal-widget-item-text first\">\n                        <div class=\"reveal-widget-item-text-body reveal-first-long dot-ellipsis dot-resize-update\">\n                            "
+    + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(alias1,((stack1 = (depth0 != null ? depth0.first : depth0)) != null ? stack1.body : stack1),{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
+    + "\n                             <a href=\"#\" class=\"reveal-popup-open\" tabindex=\"-1\">"
+    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.first : depth0)) != null ? stack1.moreText : stack1),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.program(6, data, 0),"data":data})) != null ? stack1 : "")
+    + "</a>                          \n                        </div>\n                    </div>\n";
+},"11":function(container,depth0,helpers,partials,data) {
+    var stack1;
+
+  return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.first : depth0)) != null ? stack1.moreText : stack1), depth0));
+},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {});
+
+  return "<div class=\"reveal-inner component-inner\">\n"
+    + ((stack1 = container.invokePartial(partials.component,depth0,{"name":"component","data":data,"indent":"    ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + "    <div class=\"reveal-widget reveal-component component-widget\">\n        <div class=\"reveal-widget-slider\" tabindex=\"1\">\n            <a href=\"#\" class=\"reveal-widget-control\" aria-label=\""
+    + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._components : stack1)) != null ? stack1._reveal : stack1)) != null ? stack1.ariaLabel : stack1), depth0))
+    + "\"><div class=\"reveal-widget-icon icon\"></div></a>\n            <div class=\"reveal-widget-item second-item\">\n"
+    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.second : depth0)) != null ? stack1.src : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.second : depth0)) != null ? stack1.body : stack1),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "            </div>\n            <div class=\"reveal-widget-item first-item\" tabindex=\"2\">\n"
+    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.first : depth0)) != null ? stack1.src : stack1),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.first : depth0)) != null ? stack1.body : stack1),{"name":"if","hash":{},"fn":container.program(10, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "            </div>\n        </div>\n    </div>  \n</div>";
+},"usePartial":true,"useData":true});
+
 this["Handlebars"]["templates"]["stacklist"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1;
 

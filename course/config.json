@@ -69,7 +69,9 @@
       "adapt-contrib-matching",
       "adapt-tabs",
       "adapt-stacklist",
-      "adapt-component-animateCCmate"
+      "adapt-component-animateCCmate",
+      "adapt-contrib-narrative",
+      "adapt-contrib-reveal"
     ]
   }
 }
